@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/*:root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+   --background-start-rgb: 214, 219, 220; 
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -15,7 +17,17 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+*/
+.bigfont{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.littlefont{
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +42,34 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+#hero{
+  background: linear-gradient( rgba(65, 70, 66, 0.719), rgba(65, 70, 66, 0.580)), url('/hero.jpg') no-repeat center center fixed ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+#bjj{
+background-image:url('/bjj.jpg') ;
+background-repeat: no-repeat;
+  background-size: cover;
+}
+#mt{
+  background-image:url('/mt.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wr{
+  background-image:url('/wr.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#yg{
+  background-image:url('/yg.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+background-image:url('')
 }
